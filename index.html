@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evelyn Yohannan | Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #f7f3e8;
+            color: #1a1a1a;
+        }
+
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Grid background inspired by image_75e853_2.jpg */
+        .grid-texture {
+            background-image: radial-gradient(#2c4c3e 0.5px, transparent 0.5px);
+            background-size: 20px 20px;
+            opacity: 0.15;
+        }
+    </style>
+</head>
+
+<body class="p-4 md:p-8 relative">
+    <div class="fixed inset-0 grid-texture -z-10"></div>
+
+    <div class="max-w-6xl mx-auto">
+        <!-- NAVIGATION -->
+        <nav class="flex justify-between items-center py-6 border-b border-[#2c4c3e]/20 mb-12">
+            <div class="font-bold text-lg uppercase tracking-tighter text-[#2c4c3e]">EY.Dev [2026]</div>
+            <div class="hidden md:flex gap-10 uppercase text-[10px] font-bold tracking-widest">
+                <a href="#" class="hover:italic">About</a>
+                <a href="#" class="hover:italic">Projects</a>
+                <a href="#" class="hover:italic">Archive</a>
+            </div>
+            <a href="mailto:eyohanna@asu.edu"
+                class="bg-[#2c4c3e] text-[#f7f3e8] px-5 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-[#ff9d00] transition-colors">Contact</a>
+        </nav>
+
+        <!-- Hero Header: Blending image_75e87b_2.jpg and image_758e7d.png -->
+        <header class="mb-20">
+            <div class="relative inline-block">
+                <h1 class="heading-font text-7xl md:text-[9rem] leading-none tracking-tighter text-[#2c4c3e]">
+                    Evelyn <br> <span class="italic text-[#ff9d00]">Yohannan</span>
+                </h1>
+                <!-- Small Floating Sticker inspired by image_75e853_2.jpg -->
+                <div
+                    class="absolute -top-4 -right-8 bg-white border border-[#2c4c3e] px-4 py-1 rounded-full rotate-12 shadow-sm">
+                    <span class="text-[10px] font-bold uppercase tracking-tighter">B.S. CS @ ASU</span>
+                </div>
+            </div>
+            <p class="mt-8 max-w-xl text-lg font-medium leading-relaxed opacity-80">
+                Software engineer focused on high-utility full-stack systems and automation. Currently finishing my
+                senior year and building for the future.
+            </p>
+        </header>
+
+        <!-- BENTO GRID -->
+        <main class="grid grid-cols-1 md:grid-cols-6 gap-4">
+
+            <!-- CAPSTONE -->
+            <div
+                class="md:col-span-4 bg-white border border-[#2c4c3e]/10 p-8 rounded-[2rem] flex flex-col justify-between shadow-sm hover:shadow-xl transition-shadow">
+                <div>
+                    <div class="flex justify-between items-start mb-12">
+                        <span
+                            class="bg-[#2c4c3e] text-white px-3 py-1 rounded-full text-[9px] font-bold uppercase tracking-widest">Featured</span>
+                        <span class="font-mono text-[10px] opacity-40">01. CAPSTONE</span>
+                    </div>
+                    <h2 class="heading-font text-4xl md:text-5xl text-[#2c4c3e] mb-4 leading-tight">National Medical
+                        <br> Supply Platform
+                    </h2>
+                    <p class="max-w-md text-sm leading-relaxed opacity-70">A full-stack e-commerce website built as my
+                        capston project</p>
+                </div>
+                <div class="flex gap-2 mt-12">
+                    <span
+                        class="border border-[#2c4c3e]/20 px-3 py-1 rounded-lg text-[10px] font-bold uppercase">React</span>
+                    <span
+                        class="border border-[#2c4c3e]/20 px-3 py-1 rounded-lg text-[10px] font-bold uppercase">Firebase</span>
+                    <span
+                        class="border border-[#2c4c3e]/20 px-3 py-1 rounded-lg text-[10px] font-bold uppercase">Vite</span>
+                </div>
+            </div>
+
+            <!-- SMALL CARD -->
+            <div class="md:col-span-2 bg-[#ff9d00] p-8 rounded-[2rem] flex flex-col justify-center text-white">
+                <h3 class="heading-font text-3xl italic leading-none mb-4">Builder<br>Philosophy</h3>
+                <p class="text-xs leading-relaxed font-medium opacity-90">Prioritizing real-world utility over complex
+                    abstractions.</p>
+            </div>
+
+            <!-- AUDIT -->
+            <div class="md:col-span-3 bg-[#2c4c3e] p-8 rounded-[2rem] text-white flex flex-col justify-between">
+                <div>
+                    <h3 class="heading-font text-3xl mb-2">3,800+ Links</h3>
+                    <p class="text-xs opacity-70">Automated link auditing system for Nationwide resource platforms.</p>
+                </div>
+                <div class="mt-8 bg-white/5 border border-white/10 p-4 rounded-xl font-mono text-[9px]">
+                    >> status: verified <br>
+                    >> python link_audit.py --run
+                </div>
+            </div>
+
+            <!-- TECH SKILLS -->
+            <div class="md:col-span-3 bg-[#fdfcf9] border border-[#2c4c3e]/10 p-8 rounded-[2rem]">
+                <h3 class="text-[10px] font-black uppercase tracking-widest text-[#ff9d00] mb-6">Expertise</h3>
+                <div class="grid grid-cols-2 gap-x-4 gap-y-3">
+                    <div class="text-sm font-bold border-b border-[#2c4c3e]/10 pb-1">Python</div>
+                    <div class="text-sm font-bold border-b border-[#2c4c3e]/10 pb-1">Automated Scraping</div>
+                    <div class="text-sm font-bold border-b border-[#2c4c3e]/10 pb-1">Full-Stack Dev</div>
+                    <div class="text-sm font-bold border-b border-[#2c4c3e]/10 pb-1">PyQt5/UI</div>
+                </div>
+                <p class="mt-8 text-[10px] font-bold text-[#2c4c3e] italic">I enjoy trying any new tools I can come
+                    across</p>
+            </div>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer
+            class="mt-24 border-t border-[#2c4c3e]/10 pt-12 pb-20 flex flex-col md:flex-row justify-between items-start gap-12">
+            <div>
+                <h2 class="heading-font text-5xl text-[#2c4c3e]">Let's collaborate.</h2>
+                <p class="mt-2 text-sm opacity-60 italic">Available for full-time opportunities starting May 2026.</p>
+            </div>
+            <div class="flex gap-16">
+                <div class="space-y-2">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-[#ff9d00]">Elsewhere</p>
+                    <button onclick="handleLinkedInClick()"
+                        class="block text-sm font-bold hover:underline bg-transparent border-none p-0 cursor-pointer text-left font-inherit text-black">
+                        LinkedIn ↗
+                    </button>
+
+                    <button onclick="handleGithubClick()"
+                        class="block text-sm font-bold hover:underline bg-transparent border-none p-0 cursor-pointer text-left font-inherit text-black">
+                        Github ↗
+                    </button>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-[#ff9d00]">Location</p>
+                    <p class="text-sm font-bold">Arizona</p>
+                    <p class="text-[10px] opacity-40">ASU Grad</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+    function handleLinkedInClick() {
+        const url = "https://www.linkedin.com/in/evelyn-yohannan";
+        window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    function handleGithubClick() {
+        const url = "https://github.com/Eve953";
+        window.open(url, "_blank", "noopener,noreferrer");
+    }
+</script>
+</body>
+
+</html>
+
